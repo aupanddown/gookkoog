@@ -34,6 +34,10 @@
   border-radius: 10%;
 }
 
+.CartBG{
+  background-color:#c2cc89 ;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

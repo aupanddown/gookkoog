@@ -4,7 +4,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const favorite =() => {
     return (
-        <Image src={FavoriteBG} fluid />
+        <center>
+        <Image src={FavoriteBG} fluid 
+        display= 'block'
+      margin-left= 'auto'
+      margin-right= 'auto'
+      width= '40% '
+      />
+      </center>
     );
   }
   

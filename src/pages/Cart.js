@@ -6,7 +6,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Cart =() => {
     return (
-      <Image src={CartBG} fluid  />
+      <div className="CartBG">
+      <center>
+      <Image src={CartBG} fluid 
+      display= 'block'
+      margin-left= 'auto'
+      margin-right= 'auto'
+      width= '45% ' />
+      </center>
+      </div>
     );
   }
   

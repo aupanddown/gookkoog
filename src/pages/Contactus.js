@@ -6,7 +6,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Contactus =() => {
     return (
-      <Image src={ContactusBG} fluid  />
+      <center>
+      <Image src={ContactusBG} fluid 
+      display= 'block'
+      margin-left= 'auto'
+      margin-right= 'auto'
+      width= '50% '
+       />
+       </center>
     );
   }
   
