@@ -5,14 +5,13 @@ import CookingtipsBGNav from '../components/CookingtipsBGNav.png'
 
 const Cookingtips =() => {
   return (
-  <>
     <center>
     <Button href="/ingredients" variant="outline-*" >
     <Image src={CookingtipsBGNav} fluid 
      width= '70%'
     />
     </Button>
-    </center>
+    
     <Button href="/onthemenu" variant="outline-*" >
     <Image src={CookingtipsBG} fluid 
     display= 'block'
@@ -20,7 +19,7 @@ const Cookingtips =() => {
     margin-right= 'auto'
     width= '55% ' />
     </Button>
-  </>
+    </center>
     );
   }
 

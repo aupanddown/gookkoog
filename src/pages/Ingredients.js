@@ -15,7 +15,7 @@ const ingredients =() => {
      width= '70% '
     />
     </Button>
-    </center>
+    
     <Button href="/cookingtips" variant="outline-*" >
     <Image src={inveg} fluid 
     display= 'block'
@@ -28,6 +28,7 @@ const ingredients =() => {
     margin-right= 'auto'
     width= '55% ' />
     </Button>
+    </center>
   </>
     );
   }

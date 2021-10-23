@@ -10,9 +10,9 @@ const onthemenu =() => {
       <>
       <center>
       <Image src={OnthemenuBGNav} fluid 
-       width= '70% '
+       width= '45% '
       />
-      </center>
+      
       <Button href="/ingredients" variant="outline-*" >
       <Image src={OnthemenuBG} fluid 
       display= 'block'
@@ -20,6 +20,7 @@ const onthemenu =() => {
       margin-right= 'auto'
       width= '50% ' />
       </Button>
+      </center>
     </>
     );
   }
