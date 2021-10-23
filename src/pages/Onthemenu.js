@@ -10,7 +10,7 @@ const onthemenu =() => {
       <>
       <center>
       <Image src={OnthemenuBGNav} fluid 
-       width= '45% '
+       width= '70% '
       />
       
       <Button href="/ingredients" variant="outline-*" >
