@@ -6,7 +6,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Login =() => {
     return (
-      <Image src={LoginBG} fluid  />
+      <div className='CartBG'>
+      <center>
+      <Image src={LoginBG} fluid
+      display= 'block'
+      margin-left= 'auto'
+      margin-right= 'auto'
+      width= '50% '
+        />
+      </center>
+      </div>
     );
   }
   
