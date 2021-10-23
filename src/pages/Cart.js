@@ -12,7 +12,7 @@ const Cart =() => {
       display= 'block'
       margin-left= 'auto'
       margin-right= 'auto'
-      width= '45% ' />
+      width= '55% ' />
       </center>
       </div>
     );

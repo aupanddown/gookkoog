@@ -23,7 +23,7 @@ const ingredients =() => {
     margin-right= 'auto'
     width= '55% ' />
     <Image src={inmeat} fluid 
-    display= 'block'
+    
     margin-left= 'auto'
     margin-right= 'auto'
     width= '55% ' />
