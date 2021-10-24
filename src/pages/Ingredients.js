@@ -1,35 +1,27 @@
 import {Image,Button } from 'react-bootstrap';
-import inveg from '../components/inveg.png';
-import inmeat from '../components/inmeat.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import IngredientsBGNav from '../components/IngredientsBGNav.png'
+import IngredientsBG from '../components/IngredientsBG.png'
 
 
 
 const ingredients =() => {
   return (
-    <>
     <center>
     <Button href="/onthemenu" variant="outline-*" >
     <Image src={IngredientsBGNav} fluid 
-     width= '70% '
+     width= '70%'
     />
     </Button>
     
     <Button href="/cookingtips" variant="outline-*" >
-    <Image src={inveg} fluid 
+    <Image src={IngredientsBG} fluid 
     display= 'block'
     margin-left= 'auto'
     margin-right= 'auto'
-    width= '55% ' />
-    <Image src={inmeat} fluid 
-    
-    margin-left= 'auto'
-    margin-right= 'auto'
-    width= '55% ' />
+    width= '75% ' />
     </Button>
     </center>
-  </>
     );
   }
   

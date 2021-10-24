@@ -10,7 +10,7 @@ import Signup from './pages/Signup';
 import Login from './pages/Login';
 import Ingredients from './pages/Ingredients';
 import Cookingtips from './pages/Cookingtips';
-
+import Specialprogram from './pages/Specialprogram';
 
 function App() {
   return (
@@ -27,6 +27,7 @@ function App() {
     <Route path="/login" component={Login} />
     <Route path="/ingredients" component={Ingredients} />
     <Route path="/cookingtips" component={Cookingtips} />
+    <Route path="/specialprogram" component={Specialprogram} />
   </BrowserRouter>
     
   );
